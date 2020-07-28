@@ -1,0 +1,10 @@
+outfile=open('out.txt','w')
+outfile.write("There's nothing you can do that can't be done")
+outfile.write("Nothing you can sing that can't be sung")
+outfile.write("Nothing you can say,but you can learn how to play the game")
+outfile.close()
+
+infile=open('out.txt','r')
+s=infile.readlines()
+print(s)
+infile.close()
