@@ -10,7 +10,7 @@ for i in range(len(n)):
     for j in range(len(s)):
         sum=sum+int(s[j])
 
-    print("평균=",sum/len(s))
+    print("평균==",sum/len(s))
     print()
 
 infile.close()
