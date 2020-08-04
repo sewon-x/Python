@@ -14,19 +14,13 @@ min_a=min(a)
 print("avg=",average)
 print("max=",max_a)
 print("min=",min_a)
-# result=[]
-# f=open('output.txt','r')
-
 
 arr=np.array(ex3)
-# print(arr)
 for i in range(len(arr)):
     if arr[i,3]==50:
         cx=arr[i,0]
         dx = arr[i, 1]
         tx = arr[i, 2]
-        # print("가장 비싼 집들은 각각 CRIM=", cx, "DIS=", dx, "TAX=", tx, "이고, 가장 싼집은 각각 CRIM=", cm, "DIS=", dm, "TAX=", tm)
-    # if arr[i,3]==5:
         for j in range(len(arr)):
             if arr[j, 3] == 5:
                 cm = arr[j, 0]
